@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2020-11-17T00:45:38.010Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69" etag="2wL1K6j03O-jVs47fgOf" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-17T00:45:45.002Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69" etag="rWmo37YllgFWMqIqkqrb" version="13.8.8" type="github">
   <diagram id="8OEgKZQqjmXXyYo7Bt-Y" name="Page-1">
-    <mxGraphModel dx="1278" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="M_46F9ccJsSBQoKzHJkh-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Diagrama de clases&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="M_46F9ccJsSBQoKzHJkh-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Diagrama de clases&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="119" y="20" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="M_46F9ccJsSBQoKzHJkh-2" value="Añadir cajas(nombre caja,precio,Stock,armas,nombrecaja,precio,Stock,armas)&lt;br&gt;Añadir personas(nombre usuario,contraseña,Saldo,armas,nombreUsuario,SaldoUser,inventario)&lt;br&gt;Armas(arma,precio,nombre armas ,precio)&lt;br&gt;Nuevo Registro(nombre usuario ,contraseña)&lt;br&gt;Obtener informacion(usuario)&lt;br&gt;Sumar Saldos por inventario actual(nombre de arma,valor de alma,saldo total)&lt;br&gt;Añadir Saldo(usuario,saldo actual,monto)&lt;br&gt;Comprar caja(nombre de caja ,valor,saldo)&lt;br&gt;Agregar Stock(nombre cajas,disponible,stock agregado)&lt;br&gt;obtener informacion de recaudacion(nombre cajas ,precio, recaudacion total)&lt;br&gt;obtener informacion de ventas(nombre usuario,recaudacion total)&lt;br&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="M_46F9ccJsSBQoKzHJkh-2" value="Añadir cajas(nombre caja,precio,Stock,armas,nombrecaja,precio,Stock,armas)&lt;br&gt;Añadir personas(nombre usuario,contraseña,Saldo,armas,nombreUsuario,SaldoUser,inventario)&lt;br&gt;Armas(arma,precio,nombre armas ,precio)&lt;br&gt;Nuevo Registro(nombre usuario ,contraseña)&lt;br&gt;Obtener informacion(usuario)&lt;br&gt;Sumar Saldos por inventario actual(nombre de arma,valor de alma,saldo total)&lt;br&gt;Añadir Saldo(usuario,saldo actual,monto)&lt;br&gt;Comprar caja(nombre de caja ,valor,saldo)&lt;br&gt;Agregar Stock(nombre cajas,disponible,stock agregado)&lt;br&gt;obtener informacion de recaudacion(nombre cajas ,precio, recaudacion total)&lt;br&gt;obtener informacion de ventas(nombre usuario,recaudacion total)&lt;br&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="31" y="80" width="449" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="M_46F9ccJsSBQoKzHJkh-3" value="UCNcruse Interface" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="M_46F9ccJsSBQoKzHJkh-3" value="UCNcruse Interface" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="60" width="450" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NnLk09URc4SpgtrP1znY-1" value="implementos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
