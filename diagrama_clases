@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-17T01:28:50.400Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69" etag="0bbybNRvj6wkmhcd2l8B" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-17T01:52:01.377Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69" etag="4EgBIThmf3jlwcvbae14" version="13.8.8" type="github">
   <diagram id="8OEgKZQqjmXXyYo7Bt-Y" name="Page-1">
     <mxGraphModel dx="1278" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,13 +46,13 @@
         <mxCell id="NnLk09URc4SpgtrP1znY-9" value="+getTamañoArmas(): int&lt;br&gt;+getTamañoPrecios(): int&lt;br&gt;+buscar(): Arma&amp;nbsp;&amp;nbsp;&lt;br&gt;+setlistaArmas(): Array[ ]&lt;br&gt;+toString():" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="299" y="930" width="209" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="NnLk09URc4SpgtrP1znY-10" value="-listainventario[]: Array&lt;br&gt;-listaUsuarios[]:Array&lt;br&gt;-sumaTotal : double&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="40" y="870" width="209" height="60" as="geometry" />
+        <mxCell id="NnLk09URc4SpgtrP1znY-10" value="-AñadirUsuario[]: inventario&lt;br&gt;-AñadirUsuario[]:listaUsuarios&lt;br&gt;-AñadirUsuario[]:listapass&lt;br&gt;-AñadirUsuario[]:listaSaldos&lt;br&gt;-sumaTotal : double&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="780" width="209" height="150" as="geometry" />
         </mxCell>
         <mxCell id="NnLk09URc4SpgtrP1znY-11" value="ListaUsuarios" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="850" width="209" height="20" as="geometry" />
+          <mxGeometry x="40" y="760" width="209" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="NnLk09URc4SpgtrP1znY-12" value="+listainventario():&lt;br&gt;+listaUsuarios():&lt;br&gt;+getTamañoinventario(): int&lt;br&gt;+getTamañoUsuarios(): int&lt;br&gt;+buscar(): armaInventariada&amp;nbsp;&amp;nbsp;&lt;br&gt;+eliminar():armaInventariada&lt;br&gt;+buscar(): usuario&amp;nbsp;&amp;nbsp;&lt;br&gt;+eliminar():usuario&lt;br&gt;+ingresar():usuario&lt;br&gt;+toString():" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="NnLk09URc4SpgtrP1znY-12" value="+listainventario():&lt;br&gt;+listaUsuarios():&lt;br&gt;+getTamañoinventario(): int&lt;br&gt;+getTamañoUsuarios(): int&lt;br&gt;+buscar(): armaInventariada&amp;nbsp;&amp;nbsp;&lt;br&gt;+eliminar():armaInventariada&lt;br&gt;+buscar(): usuario&amp;nbsp;&amp;nbsp;&lt;br&gt;+ingresar():usuario&lt;br&gt;+Calcular(): inventario(Saldo total)&lt;br&gt;+toString():" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="40" y="930" width="209" height="190" as="geometry" />
         </mxCell>
       </root>
