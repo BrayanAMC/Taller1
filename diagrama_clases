@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-17T01:52:01.377Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69" etag="4EgBIThmf3jlwcvbae14" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-17T02:15:53.919Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69" etag="8S5QG5aDa3BCHTk6DL6v" version="13.8.8" type="github">
   <diagram id="8OEgKZQqjmXXyYo7Bt-Y" name="Page-1">
     <mxGraphModel dx="1278" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,8 +28,8 @@
         <mxCell id="NnLk09URc4SpgtrP1znY-4" value="-nombreArma : String&lt;br&gt;-valor : Double&amp;nbsp;&lt;br&gt;-listaArmas : String[ ]" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="299" y="440" width="209" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M_46F9ccJsSBQoKzHJkh-9" value="+Añadir Personas()&lt;br&gt;+getnombreUsuario():String&lt;br&gt;+setnombreUsuario():&lt;br&gt;+getcontraseña():String&lt;br&gt;+setcontraseña():&lt;br&gt;+getSaldo():Double&lt;br&gt;+setSaldo():&lt;br&gt;+getArmas():String&lt;br&gt;+setArmas():&lt;br&gt;+getSaldoUser():Double&lt;br&gt;+setSaldoUser():&lt;br&gt;+getinventario():[]String&lt;br&gt;+setinventario():&lt;br&gt;+toString():" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="31" y="530" width="209" height="200" as="geometry" />
+        <mxCell id="M_46F9ccJsSBQoKzHJkh-9" value="+Añadir Personas()&lt;br&gt;+getnombreUsuario():String&lt;br&gt;+setnombreUsuario():&lt;br&gt;+getcontraseña():String&lt;br&gt;+setcontraseña():&lt;br&gt;+getSaldo():Double&lt;br&gt;+setSaldo():&lt;br&gt;+getArmas():String&lt;br&gt;+setArmas():&lt;br&gt;+getSaldoUser():Double&lt;br&gt;+setSaldoUser():&lt;br&gt;+getinventario():[]String&lt;br&gt;+setinventario():&lt;br&gt;+setVentas():&lt;br&gt;+getVentas():&lt;br&gt;+toString():" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="31" y="530" width="209" height="230" as="geometry" />
         </mxCell>
         <mxCell id="NnLk09URc4SpgtrP1znY-5" value="Armas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="299" y="420" width="209" height="20" as="geometry" />
@@ -37,23 +37,41 @@
         <mxCell id="NnLk09URc4SpgtrP1znY-6" value="+getnombreArma(): String&lt;br&gt;+getValor(): double&amp;nbsp;&lt;br&gt;+toString():" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="299" y="500" width="209" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="NnLk09URc4SpgtrP1znY-7" value="-listaArmas[]: Array&lt;br&gt;-listaPrecios[]:Array" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="299" y="870" width="209" height="60" as="geometry" />
+        <mxCell id="NnLk09URc4SpgtrP1znY-7" value="-Armas[]: listaArmas&lt;br&gt;-Armas[]:listaPrecios" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="299" y="740" width="209" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NnLk09URc4SpgtrP1znY-8" value="ListaArmas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="299" y="850" width="209" height="20" as="geometry" />
+          <mxGeometry x="299" y="720" width="209" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NnLk09URc4SpgtrP1znY-9" value="+getTamañoArmas(): int&lt;br&gt;+getTamañoPrecios(): int&lt;br&gt;+buscar(): Arma&amp;nbsp;&amp;nbsp;&lt;br&gt;+setlistaArmas(): Array[ ]&lt;br&gt;+toString():" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="299" y="930" width="209" height="150" as="geometry" />
+          <mxGeometry x="299" y="800" width="209" height="150" as="geometry" />
         </mxCell>
         <mxCell id="NnLk09URc4SpgtrP1znY-10" value="-AñadirUsuario[]: inventario&lt;br&gt;-AñadirUsuario[]:listaUsuarios&lt;br&gt;-AñadirUsuario[]:listapass&lt;br&gt;-AñadirUsuario[]:listaSaldos&lt;br&gt;-sumaTotal : double&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="40" y="780" width="209" height="150" as="geometry" />
+          <mxGeometry x="31" y="790" width="209" height="150" as="geometry" />
         </mxCell>
         <mxCell id="NnLk09URc4SpgtrP1znY-11" value="ListaUsuarios" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="760" width="209" height="20" as="geometry" />
+          <mxGeometry x="31" y="770" width="209" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NnLk09URc4SpgtrP1znY-12" value="+listainventario():&lt;br&gt;+listaUsuarios():&lt;br&gt;+getTamañoinventario(): int&lt;br&gt;+getTamañoUsuarios(): int&lt;br&gt;+buscar(): armaInventariada&amp;nbsp;&amp;nbsp;&lt;br&gt;+eliminar():armaInventariada&lt;br&gt;+buscar(): usuario&amp;nbsp;&amp;nbsp;&lt;br&gt;+ingresar():usuario&lt;br&gt;+Calcular(): inventario(Saldo total)&lt;br&gt;+toString():" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="40" y="930" width="209" height="190" as="geometry" />
+          <mxGeometry x="31" y="940" width="209" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="NnLk09URc4SpgtrP1znY-13" value="-nombreCajas : String&lt;br&gt;-precio: Double&amp;nbsp;&lt;br&gt;-stock : int&lt;br&gt;-armas: String[]&lt;br&gt;-Cajas:String[]" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="550" y="440" width="209" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NnLk09URc4SpgtrP1znY-14" value="Cajas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="420" width="209" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NnLk09URc4SpgtrP1znY-15" value="+getnombreCaja(): String&lt;br&gt;+getprecio(): double&lt;br&gt;+setVentas():int&lt;br&gt;+toString():" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="550" y="510" width="209" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="NnLk09URc4SpgtrP1znY-16" value="-Cajas[]: listaCajas&lt;br&gt;-Cajas[]:listaArmas&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="550" y="740" width="209" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NnLk09URc4SpgtrP1znY-17" value="ListaCajas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="551" y="720" width="209" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NnLk09URc4SpgtrP1znY-18" value="+listaCajas():&lt;br&gt;+listaArmas():&lt;br&gt;+getTamañoCajas(): int&lt;br&gt;+getTamañoArmas(): int&lt;br&gt;+getStock():int&lt;br&gt;+setStock():int&lt;br&gt;+buscar(): caja&amp;nbsp;&amp;nbsp;&lt;br&gt;+buscar(): arma&amp;nbsp;&amp;nbsp;&lt;br&gt;+ingresar():Stock&lt;br&gt;+Calcular(): inventario(Saldo total)&lt;br&gt;+toString():" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="550" y="830" width="209" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
