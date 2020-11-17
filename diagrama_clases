@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-17T14:40:58.186Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69" etag="fpl6Dh8bUs3LigwowE5k" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-17T14:40:59.772Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69" etag="GVt01DBfOSWaxCSC9DS6" version="13.9.9" type="github">
   <diagram id="8OEgKZQqjmXXyYo7Bt-Y" name="Page-1">
-    <mxGraphModel dx="1278" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,19 +76,19 @@
         <mxCell id="NnLk09URc4SpgtrP1znY-18" value="+listaCajas():&lt;br&gt;+listaArmas():&lt;br&gt;+getTamañoCajas(): int&lt;br&gt;+getTamañoArmas(): int&lt;br&gt;+getStock():int&lt;br&gt;+setStock():int&lt;br&gt;+buscar(): caja&amp;nbsp;&amp;nbsp;&lt;br&gt;+buscar(): arma&amp;nbsp;&amp;nbsp;&lt;br&gt;+ingresar():Stock&lt;br&gt;+Calcular(): inventario(Saldo total)&lt;br&gt;+toString():" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="550" y="830" width="209" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="5Jxe-PhGRZTh_mwZlKc5-1" value="-Armas[]: listaArmas&lt;br&gt;-Armas[]:listaPrecios" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="5Jxe-PhGRZTh_mwZlKc5-1" value="-Armas[]: listaArmas&lt;br&gt;-Armas[]:listaPrecios" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="290" y="840" width="209" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5Jxe-PhGRZTh_mwZlKc5-2" value="listaArma" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5Jxe-PhGRZTh_mwZlKc5-2" value="listaArma" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="820" width="209" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5Jxe-PhGRZTh_mwZlKc5-3" value="+getTamañoArmas(): int&lt;br&gt;+getTamañoPrecios(): int&lt;br&gt;+buscar(): Arma&amp;nbsp;&amp;nbsp;&lt;br&gt;+setlistaArmas(): Array[ ]&lt;br&gt;+toString():" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="5Jxe-PhGRZTh_mwZlKc5-3" value="+getTamañoArmas(): int&lt;br&gt;+getTamañoPrecios(): int&lt;br&gt;+buscar(): Arma&amp;nbsp;&amp;nbsp;&lt;br&gt;+setlistaArmas(): Array[ ]&lt;br&gt;+toString():" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="290" y="900" width="209" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="5Jxe-PhGRZTh_mwZlKc5-7" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5Jxe-PhGRZTh_mwZlKc5-7" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120.5" y="790" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5Jxe-PhGRZTh_mwZlKc5-9" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5Jxe-PhGRZTh_mwZlKc5-7" target="M_46F9ccJsSBQoKzHJkh-9">
+        <mxCell id="5Jxe-PhGRZTh_mwZlKc5-9" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="5Jxe-PhGRZTh_mwZlKc5-7" target="M_46F9ccJsSBQoKzHJkh-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="230" y="770" as="sourcePoint" />
             <mxPoint x="280" y="720" as="targetPoint" />
