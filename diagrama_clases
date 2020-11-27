@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-27T20:39:00.513Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="UbnchVBXH4NovF3Y9xvv" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-27T20:42:26.421Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="RravGRe1xINlikqN_lQN" version="13.10.4" type="github">
   <diagram id="8OEgKZQqjmXXyYo7Bt-Y" name="Page-1">
     <mxGraphModel dx="910" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -209,8 +209,8 @@
         <mxCell id="wvgd1gHWuhdOMMREK9sI-8" value="listaAspecto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1190" y="480" width="209" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wvgd1gHWuhdOMMREK9sI-9" value="+agregarAspecto(): boolean&lt;br&gt;+getCantidadAspectos():int&lt;br&gt;+buscarAspecto():String&lt;br&gt;+toString():&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="590" width="209" height="270" as="geometry" />
+        <mxCell id="wvgd1gHWuhdOMMREK9sI-9" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;+agregarAspecto(): boolean&lt;br&gt;+getCantidadAspectos():int&lt;br&gt;+buscarAspecto():String&lt;br&gt;+toString():&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="560" width="209" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
