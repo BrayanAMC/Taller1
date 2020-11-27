@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-27T21:41:34.937Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="0fzxOI1SHPV7M_YNgukk" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-27T21:43:10.788Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="d6uSK9NwyI5qRtDSbE-p" version="13.10.4" type="github">
   <diagram id="8OEgKZQqjmXXyYo7Bt-Y" name="Page-1">
     <mxGraphModel dx="910" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="M_46F9ccJsSBQoKzHJkh-9" value="+getNombre(): String&lt;br&gt;+setNombre():&lt;br&gt;+getContraseña(): String&lt;br&gt;+setContraseña():&lt;br&gt;+getSaldoUsuario(): double&lt;br&gt;+setSaldoUsuario():&lt;br&gt;+getCantidadArmas(): int&lt;br&gt;+getArma(): inventario&lt;br&gt;+agregarArma():&lt;br&gt;+toString():" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="31" y="490" width="209" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="NnLk09URc4SpgtrP1znY-5" value="Armas" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="NnLk09URc4SpgtrP1znY-5" value="Arma" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="299" y="420" width="209" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NnLk09URc4SpgtrP1znY-6" value="+getnombreArma(): String&lt;br&gt;+getValor(): double&amp;nbsp;&lt;br&gt;+toString():" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
