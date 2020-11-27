@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-27T21:30:17.629Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="sv6TaXirnzLek3cejXMn" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-27T21:36:11.180Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="Pe1mlu-NYsfVEIXnT7E0" version="13.10.4" type="github">
   <diagram id="8OEgKZQqjmXXyYo7Bt-Y" name="Page-1">
     <mxGraphModel dx="910" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,10 +43,10 @@
         <mxCell id="NnLk09URc4SpgtrP1znY-8" value="ListaArmas" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="820" width="209" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="NnLk09URc4SpgtrP1znY-10" value="&lt;br&gt;-AñadirUsuario[]:listaUsuarios&lt;br&gt;-AñadirUsuario[]:listapass&lt;br&gt;-AñadirUsuario[]:listaSaldos&lt;br&gt;-sumaTotal : double&lt;br&gt;-max:int&lt;br&gt;-maxinventary:int&lt;br&gt;-cant:int&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="NnLk09URc4SpgtrP1znY-10" value="&lt;br&gt;-usuario[]:lista&lt;br&gt;-cantidadUsuarios: int&lt;br&gt;-max:int&lt;br&gt;&lt;br&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="30" y="840" width="209" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="NnLk09URc4SpgtrP1znY-11" value="ListaUsuarios" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="NnLk09URc4SpgtrP1znY-11" value="listaUsuario" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="820" width="209" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NnLk09URc4SpgtrP1znY-12" value="+listainventario(maxinventary:int):&lt;br&gt;+listaUsuarios(usuario):&lt;br&gt;+getTamañoinventario(): int&lt;br&gt;+getTamañoUsuarios(): int&lt;br&gt;+buscar(): armaInventariada&amp;nbsp;&amp;nbsp;&lt;br&gt;+eliminar():armaInventariada&lt;br&gt;+buscar(usuario): boolean&amp;nbsp;&amp;nbsp;&lt;br&gt;+ingresar(usuario):boolean&lt;br&gt;+Calcular(Saldototal):double&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
