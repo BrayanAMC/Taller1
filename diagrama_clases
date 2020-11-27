@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-27T21:02:44.423Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="f6q3k3haJoUQnz8NTn2f" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-27T21:03:59.863Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="xCsXUktgCLeqXFhxiXcu" version="13.10.4" type="github">
   <diagram id="8OEgKZQqjmXXyYo7Bt-Y" name="Page-1">
     <mxGraphModel dx="910" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -204,13 +204,13 @@
           <mxGeometry x="1190" y="340" width="209" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wvgd1gHWuhdOMMREK9sI-7" value="-Aspectos[]:listaAspectos&lt;br&gt;-cant : int&lt;br&gt;-max: int&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="500" width="209" height="90" as="geometry" />
+          <mxGeometry x="910" y="740" width="209" height="90" as="geometry" />
         </mxCell>
         <mxCell id="wvgd1gHWuhdOMMREK9sI-8" value="listaAspecto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="480" width="209" height="20" as="geometry" />
+          <mxGeometry x="910" y="720" width="209" height="20" as="geometry" />
         </mxCell>
         <mxCell id="wvgd1gHWuhdOMMREK9sI-9" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;+agregarAspecto(): boolean&lt;br&gt;+getCantidadAspectos():int&lt;br&gt;+buscarAspecto():String&lt;br&gt;+toString():&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="560" width="209" height="80" as="geometry" />
+          <mxGeometry x="910" y="800" width="209" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wvgd1gHWuhdOMMREK9sI-10" value="-Arma[] : listaA&lt;br&gt;-max : int&lt;br&gt;-cantidadArma : int" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1445" y="280" width="209" height="60" as="geometry" />
@@ -220,6 +220,15 @@
         </mxCell>
         <mxCell id="wvgd1gHWuhdOMMREK9sI-12" value="+agregarArma(): boolean&lt;br&gt;+getCantidadArmas():int&lt;br&gt;+buscarArma(): Arma&lt;br&gt;+toString():" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1445" y="340" width="209" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wvgd1gHWuhdOMMREK9sI-13" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="989.5" y="670" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wvgd1gHWuhdOMMREK9sI-15" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="wvgd1gHWuhdOMMREK9sI-13" target="wvgd1gHWuhdOMMREK9sI-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1080" y="690" as="sourcePoint" />
+            <mxPoint x="1130" y="640" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
