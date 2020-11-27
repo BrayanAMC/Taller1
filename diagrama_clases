@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-27T21:11:56.222Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="osHjM71OSjgzGXrjQNH7" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-27T21:12:18.028Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="iwkw3--yMGBqNaXZvDvZ" version="13.10.4" type="github">
   <diagram id="8OEgKZQqjmXXyYo7Bt-Y" name="Page-1">
     <mxGraphModel dx="910" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -59,7 +59,7 @@
           <mxGeometry x="550" y="420" width="209" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NnLk09URc4SpgtrP1znY-15" value="+getCaja(): cajas&lt;br&gt;+getNombre(): String&lt;br&gt;+setNombre():&amp;nbsp;&lt;br&gt;+getPrecio(): double&lt;br&gt;+setPrecio():&lt;br&gt;+getStockCaja(): int&lt;br&gt;+setStockCaja():&lt;br&gt;+incStockCaja():" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="550" y="510" width="209" height="70" as="geometry" />
+          <mxGeometry x="550" y="510" width="209" height="120" as="geometry" />
         </mxCell>
         <mxCell id="NnLk09URc4SpgtrP1znY-16" value="-Cajas[]: listaCajas&lt;br&gt;-Cajas[]:listaArmas&lt;br&gt;-max:int&lt;br&gt;-cant:int&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="550" y="740" width="209" height="60" as="geometry" />
