@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T00:40:01.326Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69" etag="rDGzRyGeMftWxfwUMDBZ" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-27T20:20:45.758Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="UBeNkyJqMdOTCkURfss0" version="13.10.4" type="github">
   <diagram id="8OEgKZQqjmXXyYo7Bt-Y" name="Page-1">
-    <mxGraphModel dx="1278" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="910" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -184,6 +184,24 @@
               <mxPoint x="744" y="250" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="wvgd1gHWuhdOMMREK9sI-1" value="-nombreAspecto : String&lt;br&gt;-Probabilidad : Double&amp;nbsp;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="910" y="450" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvgd1gHWuhdOMMREK9sI-2" value="Aspectos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="430" width="209" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wvgd1gHWuhdOMMREK9sI-3" value="+getnombreAspecto(): String&lt;br&gt;+getProbabilidad(): double&amp;nbsp;&lt;br&gt;+toString():" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="910" y="510" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvgd1gHWuhdOMMREK9sI-4" value="-nombre : String&lt;br&gt;-precio : Double&amp;nbsp;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="280" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvgd1gHWuhdOMMREK9sI-5" value="Inventario" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="260" width="209" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wvgd1gHWuhdOMMREK9sI-6" value="+getNombre(): String&lt;br&gt;+setNombre():String&lt;br&gt;+getPrecio(): double&lt;br&gt;+setPrecio():double&amp;nbsp;&lt;br&gt;+toString():" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="340" width="209" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
