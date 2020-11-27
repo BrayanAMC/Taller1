@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-27T21:12:18.028Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="iwkw3--yMGBqNaXZvDvZ" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-27T21:25:50.180Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="6BqD4XpRUGTm54DNaNf-" version="13.10.4" type="github">
   <diagram id="8OEgKZQqjmXXyYo7Bt-Y" name="Page-1">
     <mxGraphModel dx="910" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,16 +22,16 @@
         <mxCell id="NnLk09URc4SpgtrP1znY-2" value="-ListaCajas listaCajas&lt;br&gt;-ListaPersonas listapersonas&lt;br&gt;-ListaArmas listaArma" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="600" y="80" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M_46F9ccJsSBQoKzHJkh-6" value="-nombreUsuario: String&lt;br&gt;-contraseña : String&lt;br&gt;-Saldo: Double&lt;br&gt;-Armas : String&lt;br&gt;-SaldoUser: Double&lt;br&gt;-inventario : []String" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="M_46F9ccJsSBQoKzHJkh-6" value="-nombre: String&lt;br&gt;-contraseña : String&lt;br&gt;-saldoUsuario: Double&lt;br&gt;-listaArmas : listaArmas&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="31" y="400" width="209" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="M_46F9ccJsSBQoKzHJkh-7" value="Usuario" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="M_46F9ccJsSBQoKzHJkh-7" value="usuario" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="31" y="380" width="209" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NnLk09URc4SpgtrP1znY-4" value="-nombreArma : String&lt;br&gt;-valor : Double&amp;nbsp;&lt;br&gt;-listaArmas : String[ ]" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="299" y="440" width="209" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M_46F9ccJsSBQoKzHJkh-9" value="+AnadirUsuario():&lt;br&gt;+Añadir Personas()&lt;br&gt;+getnombreUsuario():String&lt;br&gt;+setnombreUsuario():&lt;br&gt;+getcontraseña():String&lt;br&gt;+setcontraseña():&lt;br&gt;+getSaldo():Double&lt;br&gt;+setSaldo():&lt;br&gt;+getArmas():String&lt;br&gt;+setArmas():&lt;br&gt;+getSaldoUser():Double&lt;br&gt;+setSaldoUser():&lt;br&gt;+getinventario():[]String&lt;br&gt;+setinventario():&lt;br&gt;+setVentas():&lt;br&gt;+getVentas():&lt;br&gt;+toString():" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="M_46F9ccJsSBQoKzHJkh-9" value="+getNombre(): String&lt;br&gt;+setNombre():&lt;br&gt;+getContraseña(): String&lt;br&gt;+setContraseña():&lt;br&gt;+getSaldoUsuario(): double&lt;br&gt;+setSaldoUsuario():&lt;br&gt;+getCantidadArmas(): int&lt;br&gt;+getArma(): inventario&lt;br&gt;+agregarArma():&lt;br&gt;+toString():" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="31" y="490" width="209" height="270" as="geometry" />
         </mxCell>
         <mxCell id="NnLk09URc4SpgtrP1znY-5" value="Armas" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
