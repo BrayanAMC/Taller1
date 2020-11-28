@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-28T14:55:29.789Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="Hjt0PYQ_rVGS2O_7tZhV" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-28T15:01:16.456Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="lOg9EBJX0-x7KMFW6Dgb" version="13.10.4" type="github">
   <diagram id="8OEgKZQqjmXXyYo7Bt-Y" name="Page-1">
     <mxGraphModel dx="868" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -70,13 +70,13 @@
         <mxCell id="NnLk09URc4SpgtrP1znY-18" value="+listaCajas():&lt;br&gt;+listaArmas():&lt;br&gt;+getTamañoCajas(): int&lt;br&gt;+getTamañoArmas(): int&lt;br&gt;+getStock():int&lt;br&gt;+setStock():int&lt;br&gt;+buscar(): caja&amp;nbsp;&amp;nbsp;&lt;br&gt;+buscar(): arma&amp;nbsp;&amp;nbsp;&lt;br&gt;+ingresar():Stock&lt;br&gt;+Calcular(): inventario(Saldo total)&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="550" y="800" width="209" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="5Jxe-PhGRZTh_mwZlKc5-1" value="-Armas[]: listaArmas&lt;br&gt;-Armas[]:listaPrecios" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="5Jxe-PhGRZTh_mwZlKc5-1" value="-Inventario[]: Armas&lt;br&gt;-cantidad:int" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="290" y="840" width="209" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5Jxe-PhGRZTh_mwZlKc5-2" value="listaArma" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="5Jxe-PhGRZTh_mwZlKc5-2" value="listaArmas" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="820" width="209" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5Jxe-PhGRZTh_mwZlKc5-3" value="+getTamañoArmas(): int&lt;br&gt;+getTamañoPrecios(): int&lt;br&gt;+buscar(): Arma&amp;nbsp;&amp;nbsp;&lt;br&gt;+setlistaArmas(): Array[ ]&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="5Jxe-PhGRZTh_mwZlKc5-3" value="+getCantidad():int&lt;br&gt;+getArma():Inventario&lt;br&gt;+agregarArma():&lt;br&gt;+buscarArmaInventario():Inventario&lt;br&gt;+eliminarArma():boolean" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="290" y="880" width="209" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5Jxe-PhGRZTh_mwZlKc5-7" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
